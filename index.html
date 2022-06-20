@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,700;0,900;1,500&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <div class="card">
+        <div class="hero"><h1><span id ="head-w">Weather</span><span id ="head-a">App</span></h1></div>
+
+        <h2 id ="city-name"></h2>
+        <div id="img-box"><img src="icon.png" id="icon" alt="weather-icon"></div>
+        <div id="weather-desc"><p></p></div>
+
+        <div id="temp-box">
+            <p id="temp"></p>
+            <p id="feels-like"></p>
+        </div>
+
+
+        <div id="search-area">
+            <input type="text" id="user-input" name="query" placeholder="Enter A Location to get Weather.." id="search-box">
+            <button id="btn-search">Search</button>
+        </div>
+
+    </div>
+
+    <footer>
+        <p>
+            Written By <a href="https://github.com/raghavmalhotra">Raghav Malhotra</a>. 
+
+        </p>
+
+        <p>RaghavM.com &copy; 2022 </p>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
